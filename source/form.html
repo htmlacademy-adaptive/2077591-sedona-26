@@ -8,9 +8,8 @@
 
 <body class="page__body">
   <header class="main-header">
-    <h1 class="visually-hidden">Sedona</h1>
     <a class="main-header__logo">
-      <img src="/images/logotype-header.png" width="185" height="96" alt="Город Седона">
+      <img src="img/img-index/logotype-header.png" width="185" height="96" alt="Город Седона">
     </a>
     <nav class="main-nav">
       <button class="main-nav__burger" type="button">
@@ -19,29 +18,28 @@
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
           <li class="main-nav__item main-nav__item--active">
-            <a href="#">
+            <a href="index.html">
               Главная
             </a>
           </li>
           <li class="main-nav__item">
-            <a href="#">
+            <a href="catalog.html">
               Фото и видео
             </a>
           </li>
           <li class="main-nav__item">
-            <a href="#">
+            <a href="form.html">
               Форма отзыва
             </a>
           </li>
           <li class="main-nav__item">
-            <a href="#">
+            <a href="https://up.htmlacademy.ru/">
               Html Academy
             </a>
           </li>
         </ul>
         <div class="main-nav__logo-img logo-img">
-          <h2 class="visually-hidden">Sedona</h2>
-          <img src="#" alt="">
+          <img src="#" alt="#">
         </div>
         <p class="main-nav__about">
           Седона - небольшой городок в Аризоне, заслуживающий большего!
@@ -56,17 +54,16 @@
   <main class="page-main">
 
     <div class="page-main__logo-img">
-      <h2 class="visually-hidden">Sedona-logo</h2>
       <img class="logo-img" src="#" alt="#">
     </div>
     <div>
-      <h3 class="page-main__title">Оставьте свой отзыв</h3>
+      <h1 class="page-main__title">Оставьте свой отзыв</h1>
       <p class="page-main__title-about about">Помогите нашим отелям стать лучше!
         Оставьте отзыв о них, а также о посешенных вами достопримечательностях
       </p>
     </div>
 
-    <form class="custom__form order-form" method="post" action="">
+    <form class="custom__form order-form" method="post" action="#">
       <fieldset class="order-form__group">
         <legend class="order-form__title">Представьтесь</legend>
         <p class="order-form__field-group field">
@@ -76,6 +73,7 @@
         <p class="order-form__field-group field">
           <label class="field__label" for="user-surname">Фамилия</label>
           <input class="field__input" type="text" id="user-surname" name="user-surname" value="Пустота" required>
+
         </p>
         <p class="order-form__field-group field">
           <label class="field__label" for="user-patronymic">Отчество</label>
@@ -87,12 +85,12 @@
         <legend class="order-form__title">Контактная информация</legend>
         <p class="order-form__group-field">
           <label class="order-form__title" for="user-phone">Контактный телефон*:</label>
-          <input class="field__input" type="tel" id="user-phone" name="user-phone" placeholder="Введите телефон">
+          <input class="field__input" type="text" id="user-phone" placeholder="Введите телефон">
         </p>
 
         <p class="order-form__group-field">
           <label class="order-form__title" for="user-email">Электронная почта*:</label>
-          <input class="field__input" type="tel" id="user-phone" name="user-phone" placeholder="Введите e-mail">
+          <input class="field__input" type="text" id="user-email" placeholder="Введите e-mail">
         </p>
 
       </fieldset>
@@ -101,30 +99,30 @@
         <legend class="order-form__title">Ваше общее впечатление</legend>
         <ul class="control-container order-form__list order-form__radio">
           <li class="order-form__item">
-            <label class="control radio">
-              <input class="visually-hidden control-input" type="radio" value="" checked>
-              <span class="control-icon"></span>
-              <span class="control-label">Скорее положительное</span>
+            <label class="control__radio">
+              <input class="visually-hidden control-input" name="question" type="radio" value="#" checked>
+              <span class="control__icon"></span>
+              <span class="control__label">Скорее положительное</span>
             </label>
           </li>
         </ul>
 
         <ul class="control-cntainer order-form__list order-form__radio">
           <li class="order-form__item">
-            <label class="control radio">
-              <input class="visually-hidden control-input" type="radio" value="">
-              <span class="control-icon"></span>
-              <span class="control-label">Скорее отрицательное</span>
+            <label class="control__radio">
+              <input class="visually-hidden control-input" name="question" type="radio" value="#">
+              <span class="control__icon"></span>
+              <span class="control__label">Скорее отрицательное</span>
             </label>
           </li>
         </ul>
 
         <ul class="control-cntainer order-form__list order-form__radio">
           <li class="order-form__item">
-            <label class="control radio">
-              <input class="visually-hidden control-input" type="radio" value="">
-              <span class="control-icon"></span>
-              <span class="control-label">Затрудняюсь ответить</span>
+            <label class="control__radio">
+              <input class="visually-hidden control-input" name="question" type="radio" value="#">
+              <span class="control__icon"></span>
+              <span class="control__label">Затрудняюсь ответить</span>
             </label>
           </li>
         </ul>
@@ -138,7 +136,7 @@
         <ul class="control-container order-form__list order-form__checkbox checked">
           <li class="order-form__item">
             <label class="control checkbox">
-              <input class="visually-hidden control-input" type="checkbox" value="" checked>
+              <input class="visually-hidden control-input" type="checkbox" name="devil-bridge" checked>
               <span class="control-icon"></span>
               <span class="control-label">Мост Дьявола</span>
             </label>
@@ -146,7 +144,7 @@
 
           <li class="order-form__item">
             <label class="control checkbox">
-              <input class="visually-hidden control-input" type="checkbox" value="" checked>
+              <input class="visually-hidden control-input" type="checkbox" name="mountain-colocol" checked>
               <span class="control-icon"></span>
               <span class="control-label">Гора-Колокол</span>
             </label>
@@ -154,7 +152,7 @@
 
           <li class="order-form__item">
             <label class="control checkbox">
-              <input class="visually-hidden control-input" type="checkbox" value="" checked>
+              <input class="visually-hidden control-input" type="checkbox" name="slide-park" checked>
               <span class="control-icon"></span>
               <span class="control-label">Слайд-Парк</span>
             </label>
@@ -162,7 +160,7 @@
 
           <li class="order-form__item">
             <label class="control checkbox">
-              <input class="visually-hidden control-input" type="checkbox" value="">
+              <input class="visually-hidden control-input" type="checkbox" name="red-scales">
               <span class="control-icon"></span>
               <span class="control-label">Красные скалы</span>
             </label>
@@ -172,7 +170,7 @@
 
       <fieldset class="order-form__group">
         <legend class="order-form__title">Опишите свои эмоции</legend>
-        <textarea class="field__input" name="" id="user-message" cols="30" rows="5"
+        <textarea class="field__input" name="#" id="user-message" cols="30" rows="5"
           placeholder="Опишите подробно все свои восторги"></textarea>
       </fieldset>
 
@@ -206,14 +204,10 @@
     </div>
     <div class="copyright">
       <span class="copyright-about about">Разработано
-        <img src="/images/htmlacademy-logo.svg.svg" alt="Логотип HTML Академии">
+        <img src="img/img-index/htmlacademy-logo.svg.svg" alt="Логотип HTML Академии">
       </span>
     </div>
   </footer>
-
-
-  <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a
-      href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
 
 </body>
 
