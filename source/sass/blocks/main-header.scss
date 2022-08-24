@@ -1,0 +1,17 @@
+.main-header {
+display: flex;
+max-width: 320px;
+padding-right: 67px;
+
+&__logo {
+  padding-right: 25px;
+  padding-left: 67px;
+}
+}
+
+.main-nav {
+
+  &__wrapper {
+  display: none;
+}
+}

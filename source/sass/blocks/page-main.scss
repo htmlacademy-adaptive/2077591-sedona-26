@@ -1,0 +1,21 @@
+.page-main {
+display: flex;
+flex-direction: column;
+max-width: 282px;
+text-align: center;
+padding-left: 18px;
+padding-right: 20px;
+&__about {
+  font-size: 18px;
+}
+
+}
+
+.about {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #333333;
+
+
+}
