@@ -1,0 +1,60 @@
+.order-form__group,
+.field__input,
+.order-form__submit {
+  border-style: none;
+}
+
+
+
+.order-form__field-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.field__label {
+  padding-left: 16px;
+}
+
+.field__input {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  background-color: #f2f2f2;
+}
+
+.order-form__item {
+  text-align: left;
+}
+
+.order-form__submit,
+.order-form__note {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.order-form__submit {
+  background-color: #81b3d2;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  padding-top: 18.5px;
+  padding-bottom: 13.5px;
+  padding-left: 32px;
+  padding-right: 34px;
+  margin: 0 auto;
+}
+
+.order-form__note {
+  margin-top: -20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #333333 60%;
+}
+
+.order-form__list {
+  list-style: none;
+}

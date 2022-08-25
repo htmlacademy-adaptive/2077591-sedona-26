@@ -1,73 +1,73 @@
 .adventages {
-width: 320px;
-display: flex;
-flex-direction: column;
-text-align: center;
-margin-left: -70px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: -90px;
+}
 
-&__main-title {
+.adventages__main-title {
   margin-top: 54px;
   color: #ffffff;
 }
 
-&__main-title--black {
+.adventages__main-title--black {
   color: #000000;
   margin-top: 26px;
 }
 
-&__main-title-about {
+.adventages__main-title-about {
   width: 228px;
   margin: 0 auto;
 }
 
-&__background {
+.adventages__background {
   background-color: #eeeeee;
   display: flex;
   flex-direction: column;
   max-width: 320px;
 }
 
-&__number {
+.adventages__number {
   color: #ffffff;
 }
 
-&__number--grey {
+.adventages__number--grey {
   color: #333333;
 }
 
-&__main-title-about {
+.adventages__main-title-about {
   margin-bottom: 40px;
   color: #ffffff;
 }
 
-  &__info-block {
-    background-color: #81B3D2;
-  }
-
-  &__img {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__wrapper {
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
-
-&__title,
-&__title-about
-{
-display: flex;
-flex-direction: column;
-text-align: start;
-margin-left: 65px;
-margin-top: -20px;
+.adventages__info-block {
+  background-color: #81B3D2;
 }
 
-&__title-about {
+.adventages__img {
+  display: flex;
+  flex-direction: column;
+}
+
+.adventages__wrapper {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.adventages__title,
+.adventages__title-about {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
+.adventages__title-about {
   margin-top: 10px;
 }
+
+.adventages-list {
+  list-style: none;
 }
-
-
-

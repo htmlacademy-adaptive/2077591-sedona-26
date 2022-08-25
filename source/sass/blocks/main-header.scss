@@ -1,17 +1,9 @@
 .main-header {
-display: flex;
-max-width: 320px;
-padding-right: 67px;
-
-&__logo {
-  padding-right: 25px;
-  padding-left: 67px;
-}
+  display: flex;
+  max-width: 320px;
+  padding-left: 55px;
 }
 
-.main-nav {
-
-  &__wrapper {
-  display: none;
-}
+main-header__logo {
+background-color: #81b3d2;
 }

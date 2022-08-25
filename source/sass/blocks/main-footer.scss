@@ -1,14 +1,16 @@
 .main-footer {
   display: flex;
   flex-direction: column;
-  &__title {
-    margin: 0 auto;
-    font-weight: 700;
-    font-size: 21px;
-    margin-top: 28.5px;
-    margin-bottom: 33.5px;
-  }
 }
+
+.main-footer__title {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 28.5px;
+  margin-bottom: 33.5px;
+}
+
 
 .social {
 
@@ -16,13 +18,14 @@
   flex-direction: row;
   justify-content: center;
   margin-bottom: 47px;
-
-  &__item {
-    margin-right: 6px;
-  }
+  list-style: none;
 }
+
+.social__item {
+  margin-right: 6px;
+}
+
 
 .copyright {
   text-align: center;
 }
-

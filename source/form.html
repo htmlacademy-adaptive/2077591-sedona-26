@@ -10,7 +10,7 @@
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo">
-      <img src="img/img-index/logotype-header.png" width="185" height="96" alt="Город Седона">
+      <img class="logotype-header" src="img/img-index/logotype-header.png" width="185" height="96" alt="Город Седона">
     </a>
     <nav class="main-nav">
       <button class="main-nav__burger" type="button">
@@ -55,55 +55,56 @@
   <main class="page-main">
 
     <div class="page-main__logo-img">
-      <img class="logo-img" src="#" alt="#">
+      <img class="logo-img" src="/source/img/img-form/sedona-back-desktop.jpg" alt="#">
+      <img class="sedona-letters-logo" src="/source/img/img-form/sedona-letters-logo.svg" alt="#">
     </div>
     <div>
-      <h1 class="page-main__title">Оставьте свой отзыв</h1>
-      <p class="page-main__title-about about">Помогите нашим отелям стать лучше!
+      <h1 class="form-page-main__title titles--uppercase">Оставьте свой отзыв</h1>
+      <p class="form-page-main__title-about subtitles">Помогите нашим отелям стать лучше!
         Оставьте отзыв о них, а также о посешенных вами достопримечательностях
       </p>
     </div>
 
     <form class="custom__form order-form" method="post" action="#">
       <fieldset class="order-form__group">
-        <legend class="order-form__title">Представьтесь</legend>
+        <legend class="order-form__title titles--uppercase">Представьтесь:</legend>
         <p class="order-form__field-group field">
-          <label class="field__label" for="user-name">Имя</label>
-          <input class="field__input" type="text" id="user-name" name="user-name" value="Пётр" required>
+          <label class="field__label subtitles" for="user-name">Имя</label>
+          <input class="field__input titles" type="text" id="user-name" name="user-name" value="Пётр" required>
         </p>
         <p class="order-form__field-group field">
-          <label class="field__label" for="user-surname">Фамилия</label>
-          <input class="field__input" type="text" id="user-surname" name="user-surname" value="Пустота" required>
+          <label class="field__label subtitles" for="user-surname">Фамилия</label>
+          <input class="field__input titles" type="text" id="user-surname" name="user-surname" value="Пустота" required>
 
         </p>
         <p class="order-form__field-group field">
-          <label class="field__label" for="user-patronymic">Отчество</label>
-          <input class="field__input" type="text" id="user-patronymic" name="user-patronymic" value="Викторович"
+          <label class="field__label subtitles" for="user-patronymic">Отчество</label>
+          <input class="field__input titles" type="text" id="user-patronymic" name="user-patronymic" value="Викторович"
             required>
         </p>
       </fieldset>
       <fieldset class="order-form__group">
-        <legend class="order-form__title">Контактная информация</legend>
+        <legend class="order-form__title titles--uppercase">Контактная информация</legend>
         <p class="order-form__group-field">
-          <label class="order-form__title" for="user-phone">Контактный телефон*:</label>
-          <input class="field__input" type="text" id="user-phone" placeholder="Введите телефон">
+          <label class="order-form__title subtitles" for="user-phone">Контактный телефон*:</label>
+          <input class="field__input titles" type="text" id="user-phone" placeholder="Введите телефон">
         </p>
 
         <p class="order-form__group-field">
-          <label class="order-form__title" for="user-email">Электронная почта*:</label>
-          <input class="field__input" type="text" id="user-email" placeholder="Введите e-mail">
+          <label class="order-form__title subtitles" for="user-email">Электронная почта*:</label>
+          <input class="field__input titles" type="text" id="user-email" placeholder="Введите e-mail">
         </p>
 
       </fieldset>
 
       <fieldset class="order-form__group">
-        <legend class="order-form__title">Ваше общее впечатление</legend>
+        <legend class="order-form__title titles--uppercase">Ваше общее впечатление</legend>
         <ul class="control-container order-form__list order-form__radio">
           <li class="order-form__item">
             <label class="control">
               <input class="visually-hidden control-input" name="question" type="radio" value="#" checked>
               <span class="control__icon"></span>
-              <span class="control__label">Скорее положительное</span>
+              <span class="control__label titles">Скорее положительное</span>
             </label>
           </li>
         </ul>
@@ -113,7 +114,7 @@
             <label class="control">
               <input class="visually-hidden control-input" name="question" type="radio" value="#">
               <span class="control__icon"></span>
-              <span class="control__label">Скорее отрицательное</span>
+              <span class="control__label titles">Скорее отрицательное</span>
             </label>
           </li>
         </ul>
@@ -123,7 +124,7 @@
             <label class="control">
               <input class="visually-hidden control-input" name="question" type="radio" value="#">
               <span class="control__icon"></span>
-              <span class="control__label">Затрудняюсь ответить</span>
+              <span class="control__label titles">Затрудняюсь ответить</span>
             </label>
           </li>
         </ul>
@@ -133,13 +134,13 @@
 
 
       <fieldset class="order-form__group">
-        <legend class="order-form__title">Посещенные достопримечательности</legend>
+        <legend class="order-form__title titles--uppercase">Посещенные достопримечательности</legend>
         <ul class="control-container order-form__list order-form__checkbox checked">
           <li class="order-form__item">
             <label class="control checkbox">
               <input class="visually-hidden control-input" type="checkbox" name="devil-bridge" checked>
               <span class="control-icon"></span>
-              <span class="control-label">Мост Дьявола</span>
+              <span class="control-label titles">Мост Дьявола</span>
             </label>
           </li>
 
@@ -147,7 +148,7 @@
             <label class="control checkbox">
               <input class="visually-hidden control-input" type="checkbox" name="mountain-colocol" checked>
               <span class="control-icon"></span>
-              <span class="control-label">Гора-Колокол</span>
+              <span class="control-label titles">Гора-Колокол</span>
             </label>
           </li>
 
@@ -155,7 +156,7 @@
             <label class="control checkbox">
               <input class="visually-hidden control-input" type="checkbox" name="slide-park" checked>
               <span class="control-icon"></span>
-              <span class="control-label">Слайд-Парк</span>
+              <span class="control-label titles">Слайд-Парк</span>
             </label>
           </li>
 
@@ -163,21 +164,20 @@
             <label class="control checkbox">
               <input class="visually-hidden control-input" type="checkbox" name="red-scales">
               <span class="control-icon"></span>
-              <span class="control-label">Красные скалы</span>
+              <span class="control-label titles">Красные скалы</span>
             </label>
           </li>
         </ul>
       </fieldset>
 
       <fieldset class="order-form__group">
-        <legend class="order-form__title">Опишите свои эмоции</legend>
+        <legend class="order-form__title titles">Опишите свои эмоции</legend>
         <textarea class="field__input" name="#" id="user-message" cols="30" rows="5"
           placeholder="Опишите подробно все свои восторги"></textarea>
       </fieldset>
 
       <button class="order-form__submit button" type="submit">Отправить отзыв</button>
-      <span class="order-form__note"> <sup>*</sup>-Обязательные поля</span>
-
+        <span class="order-form__note"> <sup>*</sup>-Обязательные поля</span>
     </form>
 
   </main>
@@ -185,20 +185,20 @@
   <footer class="main-footer">
     <h5 class="main-footer__title">#VisitSedona</h5>
     <div class="main-footer__social">
-      <ul class="social-list">
-        <li class="social-item">
+      <ul class="social">
+        <li class="social__item">
           <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
-            Мы вконтакте
+            <img src="/source/img/img-index/VK-logo.svg" alt="Мы вконтакте">
           </a>
         </li>
-        <li class="social-item">
+        <li class="social__item">
           <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
-            Мы в телеграмме
+            <img src="/source/img/img-index/Telegram-logo.svg" alt="Мы в телеграмме">
           </a>
         </li>
-        <li class="social-item">
+        <li class="social__item">
           <a class="social__link social__link--youtube" href="https://youtube.com/user/htmlacademyru">
-            Мы на ютубе
+            <img src="/source/img/img-index/YouTube-logo.svg" alt="Мы на ютубе">
           </a>
         </li>
       </ul>
@@ -209,6 +209,8 @@
       </span>
     </div>
   </footer>
+
+
 
 </body>
 

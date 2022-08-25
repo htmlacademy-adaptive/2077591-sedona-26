@@ -1,21 +1,76 @@
 .page-main {
-display: flex;
-flex-direction: column;
-max-width: 282px;
-text-align: center;
-padding-left: 18px;
-padding-right: 20px;
-&__about {
+  display: flex;
+  flex-direction: column;
+  max-width: 282px;
+  text-align: center;
+  padding-left: 18px;
+  padding-right: 20px;
+}
+
+.page-main__about {
   font-size: 18px;
 }
 
+.page-main__title {
+  margin-top: 37px;
+  margin-bottom: 37px;
 }
+
+.page-main__title-about {
+  margin-bottom: 50px;
+}
+
+.form-page-main__title {
+  margin-top: -50px;
+  margin-bottom: 24px;
+}
+
+.form-page-main__title-about {
+  margin-bottom: 53px;
+}
+
+.page-main__subtitle-info {
+  text-align: start;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.page-main__like-icon {
+  margin-right: 14px;
+}
+
+
+.page-main__like-numbers {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
 
 .about {
   font-weight: 400;
   text-transform: uppercase;
   font-style: normal;
   color: #333333;
+}
 
+.logo-img,
+.sedona-letters-logo,
+.logotype-header {
+  position: relative;
+}
 
+.logotype-header {
+  z-index: 2;
+  margin-left: -27px;
+}
+
+.logo-img {
+  top: -50px;
+  margin-left: -27px;
+}
+
+.sedona-letters-logo {
+  top: -170px;
 }
